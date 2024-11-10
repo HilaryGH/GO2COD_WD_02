@@ -41,7 +41,7 @@ input {
 
 button {
   margin-top: 10px;
-  background-color: #2d9d9d;
+  background-color: #444;
   padding: 5px;
   border-radius: 2px;
   border: none;
@@ -49,7 +49,7 @@ button {
   cursor: pointer;
 }
 
-/* Responsive Styling */
+
 @media (max-width: 768px) {
   #quiz-container {
     width: 80%;
@@ -94,7 +94,7 @@ button {
   }
 
   button {
-    width: 100%; /* Make the button full width */
+    width: 80%; 
     padding: 10px;
   }
 }
